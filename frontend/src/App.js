@@ -1,13 +1,19 @@
 import React from 'react';
-
+import './App.scss';
+import { About, Footer, Header, Skills, Testimonials, Work } from './container';
+import Navbar from './components/Navbar/Navbar';
 const App = () => {
   return (
-    <h1>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ratione
-      ipsam ut, atque molestias ea natus soluta corrupti quasi eligendi
-      suscipit. Aut expedita vel tempora laudantium dolor ea, molestiae
-      explicabo.
-    </h1>
+    <div className="app">
+      <Navbar />
+      <Header />
+
+      <About />
+      <Work />
+      <Skills />
+      <Testimonials />
+      <Footer />
+    </div>
   );
 };
 
