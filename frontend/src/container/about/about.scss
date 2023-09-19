@@ -7,6 +7,7 @@
 .app__profiles {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 2rem;
